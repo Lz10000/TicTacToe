@@ -1,7 +1,7 @@
 # TicTacToe
 To run from command line:
 ```bash
-$ cd TicTacToke
+$ cd TicTacToe
 $ javac src/game/*.java
 $ java -cp src game.Main
 ```
