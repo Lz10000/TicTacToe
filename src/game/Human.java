@@ -16,7 +16,7 @@ public class Human implements Strategy{
                 b.play(pos[0], pos[1], Player.X);
                 return;
             }catch(Exception e){
-                System.out.printf("Bad move, try again", e.getMessage());
+                System.out.printf("Bad move, enter a number between 1 and 9.", e.getMessage());
             }
         }
     }
