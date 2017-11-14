@@ -28,9 +28,9 @@ public class Game {
         printBoard(board);
         
         if (!(gc.checkWinner() == null)) {
-            System.out.print("Player " + gc.checkWinner().toString() + " has won");
+            System.out.println("Player " + gc.checkWinner().toString() + " has won");
         } else if (board.isFull()) {
-            System.out.print("Game over, it's a tie!");
+            System.out.println("Game over, it's a tie!");
         }
     }
 
